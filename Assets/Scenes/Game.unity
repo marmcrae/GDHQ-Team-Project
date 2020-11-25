@@ -432,5 +432,28 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 2729720401243136458, guid: 708142c2b63921142a7e76a353889995, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 708142c2b63921142a7e76a353889995, type: 3}
+--- !u!1 &2879378636521951347 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2879378637435575277, guid: 708142c2b63921142a7e76a353889995,
+    type: 3}
+  m_PrefabInstance: {fileID: 2879378636521951346}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2879378636521951348
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2879378636521951347}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e1441d0e72171549bc090aedada6785, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _speed: 5.5
+  _LazerPrefab: {fileID: 1248708734295665970, guid: b52bec857adb9224887f66b88c5428a4,
+    type: 3}
+  _playerLives: 3

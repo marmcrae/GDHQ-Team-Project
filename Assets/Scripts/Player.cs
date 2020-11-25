@@ -2,16 +2,20 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class player : MonoBehaviour
+public class Player : MonoBehaviour
 {
     [SerializeField]
     private float _speed = 5.5f;
+   
     [SerializeField]
     private GameObject _LazerPrefab;
-    private float _fireRate = 0.15f;
-    private float _nextFire = 0.1f;
+
     [SerializeField]
     private int _playerLives = 3;
+
+    private float _fireRate = 0.15f;
+    private float _nextFire = 0.1f;
+  
 
     void Start()
     {
